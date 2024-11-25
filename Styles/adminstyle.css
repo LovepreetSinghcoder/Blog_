@@ -1,0 +1,67 @@
+.btn {
+    border-radius: 20px !important;
+}
+.nav-link{
+    border-radius: 20px !important;
+
+}
+/* container for the admin  */
+._container {
+    display: flex;
+
+}
+
+._sidebarCont {
+    margin-top: -23px;
+    min-height: 100vh;
+    width: 280px;
+}
+
+@media (max-width: 1024px) {
+    ._sidebarCont {
+        width: 200px;
+        transition: all 0.3s ease, color 0.3s ease;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    ._container {
+        flex-direction: column;
+    }
+
+    ._sidebarCont {
+        width: 90%;
+        display: flex;
+        height: auto;
+        min-height: 0;
+
+        padding: 0;
+        flex-direction: column !important;
+        /* width: 200px; */
+
+        align-items: center;
+        justify-content: flex-start;
+        margin: 25px auto;
+        border-radius: 30px;
+        transition: all 0.3s ease, color 0.3s ease;
+    }
+
+
+    ._ancLogo {
+        display: none !important;
+    }
+
+    ._sidebarCont ul {
+        width: 100%;
+        display: flex;
+        flex-direction: row !important;
+        justify-content: center;
+        gap: 5px;
+        /* Spacing between links */
+
+
+    }
+
+}

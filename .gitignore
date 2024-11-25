@@ -1,0 +1,9 @@
+/vendor/
+.env
+/node_modules/
+/cache/
+/logs/
+*.log
+.idea/           # IDE settings (e.g., PHPStorm)
+.DS_Store        # macOS system file
+*.bak            # Backup files
